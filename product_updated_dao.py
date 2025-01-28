@@ -99,8 +99,6 @@ def list_products():
 
     cursor.close()
     conn.close()
-    if len(products) > 0:
-        products.sort(key=lambda x: 0)
     return products
 
 
